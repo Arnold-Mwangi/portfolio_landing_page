@@ -50,7 +50,12 @@ header{
    }
 .main> div{
     width:50%;
-    margin: 5px;
+    
+}
+.content{
+    margin-right: 5px;
+   
+    font-weight: bold;
 }
 .profile{
     display: flex;
@@ -66,20 +71,15 @@ header{
 .profile_heading strong{
     color: #cf0909;
 }
-.profile_buttons{
-    left: 0;
-}
+
 
 .profile_buttons ul{
     list-style-type: none;
     display: flex;
+    align-content: flex-start;
     align-items: flex-start;
    
-   }
-.profile_buttons li{
-    display: inline;
 }
-
 
 .profile_buttons ul >div{
     align-self: flex-start;
@@ -97,16 +97,19 @@ header{
 
 .profile_social_handles ul{
     list-style-type: none;
+    text-align: left;
 }
 .profile_social_handles li{
     display: inline;
+  
 }
 .icons{
     font-size: 50px;
     border: 1px solid rgba(216, 216, 216, 0.658);
     border-radius: 5px;
-    margin: 5px;
-    background-color: #d6d6d6;
+    margin-right: 5px;
+    color:#f5abab;
+    background-color: #000000;
 }
 
 .image {
