@@ -1,5 +1,9 @@
+*{
+    box-sizing: border-box;
+}
 body{
     background-color: rgba(221, 225, 230, 0.685);
+    position: relative;
 }
 header{
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
@@ -38,8 +42,12 @@ header{
 .container{
     margin:0 auto;
     width: 1024px;
-    height: 100vh;
+    position: absolute;
+    left: 50%;
+    transform: translatex(-50%);
     background-color: white;
+    top: 50%;
+
    
 }
 .main{
@@ -127,4 +135,23 @@ header{
     max-width: 100%;
     max-height: 100%;
 }
-
+footer{
+    box-shadow: 0 -10px 8px 0 rgba(0, 0, 0, 0.2), 0 -10px 8px 0 rgba(0, 0, 0, 0.19) ;
+    margin-top: 50px;
+    font-weight: bold;
+    position: relative;
+}
+.footer_items{
+    padding: 10px;
+}
+.footer_items ul{
+    list-style-type: disc;
+    margin: 0;
+    padding: 0;
+}
+.footer_items li{
+    display: inline;
+}
+.footer_item1{
+    text-align: center;
+}
